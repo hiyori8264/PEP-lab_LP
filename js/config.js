@@ -1,12 +1,13 @@
 /*
  * サイト設定ファイル
  * ------------------------------------------------------------
- * LINE公式アカウントの友だち追加URLが決まったら、
- * 下の lineUrl の "" の中に貼り付けて保存してください。
- * 例: lineUrl: "https://lin.ee/xxxxxxx"
- *
- * 空のままの場合、LINEボタンを押すと「準備中」と表示されます。
+ * lineUrl … LINE公式アカウントの友だち追加URL
+ *           変更するときは "" の中を書き換えて保存してください。
+ *           空にすると、LINEボタンを押したときに「準備中」と表示されます。
+ * instagramUrl … Instagramアカウントのリンク
+ *           空にすると、Instagramのリンクは表示されなくなります。
  */
 window.SITE_CONFIG = {
-  lineUrl: ""
+  lineUrl: "https://lin.ee/XZbektm",
+  instagramUrl: "https://www.instagram.com/peplab_community/"
 };

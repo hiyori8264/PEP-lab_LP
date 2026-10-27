@@ -19,7 +19,7 @@
   <!-- ===== ヘッダー ===== -->
   <header class="header">
     <div class="header__inner">
-      <a href="#top" class="logo"><img src="images/logo.svg" alt="PEP lab" width="120" height="38"></a>
+      <a href="#top" class="logo"><img src="images/logo.png" alt="PEP lab" width="470" height="217"></a>
       <a href="#cta" class="btn btn--line btn--sm" data-line-link>LINEで登録</a>
     </div>
   </header>
@@ -155,8 +155,8 @@
     <!-- ===== イベント紹介 ===== -->
     <section class="section events" id="events">
       <div class="container">
-        <p class="section__en">EVENTS</p>
-        <h2 class="section__title">イベント紹介</h2>
+        <p class="section__en">COMMUNITIES &amp; EVENTS</p>
+        <h2 class="section__title">コミュニティ・イベント紹介</h2>
 
         <p class="events__intro">コミュニティでは、たとえばこんな企画を通じて企業とつながります。</p>
         <ul class="activity-list reveal">
@@ -171,39 +171,23 @@
         </ul>
         <p class="events__caption">※企画の内容はコミュニティによって異なります。</p>
 
-        <h3 class="events__subtitle">開催予定のイベント</h3>
-        <div class="events__list">
-          <!-- 現在は「準備中」表示です。イベントが決まったら下のひな形を使って追加し、このカードは削除してください -->
-          <article class="event-card event-card--coming reveal">
+        <h3 class="events__subtitle">参加できるコミュニティ</h3>
+        <!--
+          コミュニティとイベントの情報は js/communities.js に書きます。
+          このHTMLを編集する必要はありません。（書き方は README.md を参照）
+        -->
+        <div class="community-list" id="community-list">
+          <!-- js/communities.js が空のとき・読み込めないときに表示される「準備中」カード -->
+          <article class="event-card event-card--coming">
             <div class="event-card__image">
               <img src="images/event-placeholder.svg" alt="" width="600" height="340" loading="lazy">
             </div>
             <div class="event-card__body">
               <span class="tag">COMING SOON</span>
-              <h4 class="event-card__title">イベント情報は準備中です</h4>
-              <p>開催が決まり次第、このページとLINE公式アカウントでお知らせします。最新情報を受け取りたい方は、ぜひ先にLINE登録をしておいてください。</p>
+              <h4 class="event-card__title">コミュニティ情報は準備中です</h4>
+              <p>新しいコミュニティやイベントは、決まり次第このページとLINE公式アカウントでお知らせします。最新情報を受け取りたい方は、ぜひ先にLINE登録をしておいてください。</p>
             </div>
           </article>
-
-          <!--
-          ▼ イベント追加用ひな形（コピーして使ってください）
-          <article class="event-card reveal">
-            <div class="event-card__image">
-              <img src="images/イベント画像のファイル名" alt="イベントの説明" width="600" height="340" loading="lazy">
-            </div>
-            <div class="event-card__body">
-              <span class="tag">勉強会 / 交流イベント など</span>
-              <h4 class="event-card__title">イベント名</h4>
-              <dl class="event-card__info">
-                <dt>日時</dt><dd>YYYY年M月D日（曜）00:00〜00:00</dd>
-                <dt>場所</dt><dd>会場名・またはオンライン</dd>
-                <dt>対象</dt><dd>大学1〜4年生</dd>
-              </dl>
-              <p>イベントの紹介文をここに書きます。</p>
-            </div>
-          </article>
-          ▲ ここまで
-          -->
         </div>
       </div>
     </section>
@@ -229,8 +213,7 @@
           </details>
           <details class="faq-item">
             <summary>参加費はかかりますか？</summary>
-            <!-- 要確認：参加費の有無が確定したら回答を具体的に書き換えてください -->
-            <p>イベントごとの詳細は、LINE公式アカウントでご案内します。</p>
+            <p>基本的に無料で参加できます。コミュニティを運営する企業が費用を負担しています。一部、参加費がかかる企画もありますので、詳しくは各イベントの案内をご確認ください。</p>
           </details>
           <details class="faq-item">
             <summary>LINEに登録すると何が届きますか？</summary>
@@ -254,6 +237,12 @@
           <span class="btn__icon" aria-hidden="true">LINE</span>
           友だち追加する
         </a>
+        <p class="cta__sns">
+          <a href="#" class="sns-link" data-instagram-link>
+            <svg class="sns-link__icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+            Instagramもチェックする
+          </a>
+        </p>
       </div>
     </section>
 
@@ -265,10 +254,9 @@
       <p class="footer__logo">PEP lab</p>
       <p class="footer__tagline">人事を通じて感動を。</p>
       <p class="footer__service">コミュニティドリブン就活</p>
-      <!-- 要確認：プライバシーポリシー・運営者情報のページができたら href を設定してください -->
       <ul class="footer__links">
-        <li><a href="#">運営者情報</a></li>
-        <li><a href="#">プライバシーポリシー</a></li>
+        <li><a href="https://peplab.jp/" target="_blank" rel="noopener">運営者情報</a></li>
+        <li><a href="#" data-instagram-link>Instagram</a></li>
       </ul>
       <p class="footer__copy"><small>&copy; PEP lab</small></p>
     </div>
@@ -280,6 +268,7 @@
   </div>
 
   <script src="js/config.js"></script>
+  <script src="js/communities.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

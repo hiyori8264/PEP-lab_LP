@@ -89,7 +89,7 @@ ul, ol { padding: 0; list-style: none; }
   align-items: center;
   justify-content: space-between;
 }
-.logo img { width: 110px; height: auto; }
+.logo img { width: 96px; height: auto; }
 
 /* ---------- ファーストビュー ---------- */
 .hero {
@@ -303,7 +303,7 @@ ul, ol { padding: 0; list-style: none; }
   font-weight: 900;
   margin: 48px 0 20px;
 }
-.events__list { display: grid; gap: 20px; }
+.community-list { display: grid; gap: 20px; }
 .event-card {
   background: #fff;
   border-radius: var(--radius);
@@ -437,7 +437,7 @@ ul, ol { padding: 0; list-style: none; }
   body { padding-bottom: 0; }
   .fixed-cta { display: none; }
   .sp-only { display: none; }
-  .logo img { width: 130px; }
+  .logo img { width: 116px; }
 
   .hero { padding: 80px 0 96px; }
   .hero::before { width: 260px; height: 260px; right: -110px; top: -110px; }
@@ -472,7 +472,7 @@ ul, ol { padding: 0; list-style: none; }
   }
 
   .activity-list { grid-template-columns: repeat(4, 1fr); gap: 14px; }
-  .events__list { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .community-list { grid-template-columns: repeat(2, 1fr); align-items: start; }
   .event-card--coming { display: flex; max-width: 860px; }
   .event-card--coming .event-card__image { flex: 0 0 45%; }
   .event-card--coming .event-card__image img { height: 100%; object-fit: cover; }
@@ -481,3 +481,72 @@ ul, ol { padding: 0; list-style: none; }
   .cta { padding: 96px 0; }
   .cta__title { font-size: 34px; }
 }
+
+/* ==========================================================
+   コミュニティ紹介カード（js/communities.js から自動で作られます）
+   ========================================================== */
+.community-list .event-card--coming { grid-column: 1 / -1; }
+.community-card {
+  background: #fff;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.community-card__image img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.community-card__body { padding: 22px 22px 26px; }
+.community-card__head { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.badge-new {
+  background: var(--color-pink);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: .06em;
+  padding: 1px 8px;
+  border-radius: 6px;
+}
+.community-card__company { font-size: 13px; color: var(--color-text-sub); font-weight: 700; }
+.community-card__title { font-size: 20px; font-weight: 900; margin-bottom: 8px; }
+.community-card__text { font-size: 15px; color: var(--color-text-sub); }
+.community-card__tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.community-card__tags .tag { margin-bottom: 0; }
+.community-card__label {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--color-border);
+  font-size: 13px;
+  font-weight: 900;
+  color: var(--color-primary);
+}
+.community-card__empty { margin-top: 6px; font-size: 14px; color: var(--color-text-sub); }
+.community-events { display: grid; gap: 10px; margin-top: 10px; }
+.community-event {
+  background: var(--color-bg-soft);
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+.community-event__title { font-weight: 700; margin-bottom: 6px; }
+.community-event .event-card__info { margin-bottom: 6px; }
+.community-event__text { font-size: 14px; color: var(--color-text-sub); }
+.community-event__link {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+/* ---------- Instagramリンク ---------- */
+.cta__sns { margin-top: 28px; }
+.sns-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, .6);
+  padding-bottom: 2px;
+}
+.sns-link:hover { border-bottom-color: #fff; }
+.sns-link__icon { width: 20px; height: 20px; flex-shrink: 0; }

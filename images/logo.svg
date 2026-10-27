@@ -1,7 +1,0 @@
-<!-- 仮ロゴ：正式なロゴ画像があれば、このファイルを差し替えてください -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 48" role="img" aria-label="PEP lab">
-  <polygon points="104,14 114,4 118,18" fill="#7FE3D8"/>
-  <polygon points="118,2 132,8 119,16" fill="#F7D96A"/>
-  <polygon points="121,14 134,20 120,25" fill="#E487C8"/>
-  <text x="0" y="42" font-family="'Noto Sans JP', sans-serif" font-weight="900" font-size="30" fill="#2B2B2B">PEP lab</text>
-</svg>
