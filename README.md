@@ -10,7 +10,7 @@
 ├── js/config.js        … LINE登録URL・InstagramのURLの設定
 ├── js/communities.js   … ★コミュニティ・イベント情報（ここを更新して掲載）
 ├── js/main.js          … 表示の仕組み（通常は編集不要）
-└── images/             … 画像（logo.png は正式ロゴ、*-placeholder.svg は仮画像）
+└── images/             … 画像（logo.png は正式ロゴ、hero / about / event.svg はイラスト）
 ```
 
 ## ローカルで表示する
@@ -45,7 +45,7 @@
 - [x] 運営者情報のリンク（https://peplab.jp/）
 - [x] ロゴ
 - [ ] 3つの特徴・参加の流れの文言の最終確認
-- [ ] 仮画像（hero / about / event）の差し替え
+- [x] 画像（hero / about / event はオリジナルのイラスト。写真に変える場合は差し替え）
 - [ ] 公開URLが決まったら、OGP（`og:url`、`og:image`）を設定
 - [ ] アクセス解析（Googleアナリティクスなど）やフォームを追加する場合は、プライバシーポリシーを用意する
 

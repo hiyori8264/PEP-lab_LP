@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="企業と学生がコミュニティの輪でつながるイラスト">
+  <rect width="600" height="400" rx="28" fill="#FDF7EF"/>
+
+  <!-- コミュニティの輪 -->
+  <circle cx="300" cy="200" r="140" fill="none" stroke="#F3C9AE" stroke-width="3" stroke-dasharray="8 10"/>
+  <g stroke="#F3C9AE" stroke-width="2" stroke-dasharray="4 8">
+    <line x1="300" y1="200" x2="440" y2="200"/><line x1="300" y1="200" x2="370" y2="321"/><line x1="300" y1="200" x2="230" y2="321"/>
+    <line x1="300" y1="200" x2="160" y2="200"/><line x1="300" y1="200" x2="230" y2="79"/><line x1="300" y1="200" x2="370" y2="79"/>
+  </g>
+
+  <!-- 中心：つながり（ハート） -->
+  <circle cx="300" cy="200" r="66" fill="#EE6B2D"/>
+  <path d="M300 230 C268 206 260 188 271 175 C282 162 297 166 300 179 C303 166 318 162 329 175 C340 188 332 206 300 230 Z" fill="#FFFFFF"/>
+
+  <!-- 企業（ビルのアイコン） -->
+  <circle cx="230" cy="79" r="34" fill="#2B2B2B"/>
+  <rect x="216" y="61" width="28" height="36" rx="3" fill="#FFFFFF"/>
+  <g fill="#2B2B2B"><rect x="221" y="67" width="6" height="6"/><rect x="233" y="67" width="6" height="6"/><rect x="221" y="78" width="6" height="6"/><rect x="233" y="78" width="6" height="6"/><rect x="227" y="89" width="6" height="8"/></g>
+
+  <!-- 学生・社員（人のアイコン） -->
+  <g>
+    <circle cx="370" cy="79" r="34" fill="#3FBFB0"/>
+    <circle cx="370" cy="70" r="10" fill="#FFFFFF"/><path d="M353 98 Q353 82 370 82 Q387 82 387 98 Z" fill="#FFFFFF"/>
+  </g>
+  <g>
+    <circle cx="440" cy="200" r="34" fill="#F7D96A"/>
+    <circle cx="440" cy="191" r="10" fill="#FFFFFF"/><path d="M423 219 Q423 203 440 203 Q457 203 457 219 Z" fill="#FFFFFF"/>
+  </g>
+  <g>
+    <circle cx="370" cy="321" r="34" fill="#E487C8"/>
+    <circle cx="370" cy="312" r="10" fill="#FFFFFF"/><path d="M353 340 Q353 324 370 324 Q387 324 387 340 Z" fill="#FFFFFF"/>
+  </g>
+  <g>
+    <circle cx="230" cy="321" r="34" fill="#3FBFB0"/>
+    <circle cx="230" cy="312" r="10" fill="#FFFFFF"/><path d="M213 340 Q213 324 230 324 Q247 324 247 340 Z" fill="#FFFFFF"/>
+  </g>
+  <g>
+    <circle cx="160" cy="200" r="34" fill="#F7D96A"/>
+    <circle cx="160" cy="191" r="10" fill="#FFFFFF"/><path d="M143 219 Q143 203 160 203 Q177 203 177 219 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- 小さな吹き出し -->
+  <rect x="470" y="96" width="62" height="38" rx="14" fill="#FFFFFF" stroke="#EE6B2D" stroke-width="3"/>
+  <circle cx="488" cy="115" r="4" fill="#EE6B2D"/><circle cx="501" cy="115" r="4" fill="#EE6B2D"/><circle cx="514" cy="115" r="4" fill="#EE6B2D"/>
+  <rect x="68" y="268" width="62" height="38" rx="14" fill="#FFFFFF" stroke="#3FBFB0" stroke-width="3"/>
+  <circle cx="86" cy="287" r="4" fill="#3FBFB0"/><circle cx="99" cy="287" r="4" fill="#3FBFB0"/><circle cx="112" cy="287" r="4" fill="#3FBFB0"/>
+
+  <!-- 三角形の飾り -->
+  <polygon points="60,60 84,46 86,74" fill="#7FE3D8"/>
+  <polygon points="520,320 548,332 520,348" fill="#E487C8"/>
+</svg>

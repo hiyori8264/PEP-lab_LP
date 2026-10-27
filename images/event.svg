@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img" aria-label="イベントのお知らせのイラスト">
+  <rect width="600" height="340" fill="#FFF7DE"/>
+
+  <!-- カレンダー -->
+  <rect x="222" y="80" width="156" height="150" rx="18" fill="#FFFFFF" stroke="#EE6B2D" stroke-width="5"/>
+  <path d="M222 98 a18 18 0 0 1 18 -18 h120 a18 18 0 0 1 18 18 v24 h-156 Z" fill="#EE6B2D"/>
+  <rect x="254" y="64" width="12" height="32" rx="6" fill="#2B2B2B"/>
+  <rect x="334" y="64" width="12" height="32" rx="6" fill="#2B2B2B"/>
+  <g fill="#F3C9AE">
+    <circle cx="256" cy="148" r="7"/><circle cx="285" cy="148" r="7"/><circle cx="314" cy="148" r="7"/><circle cx="343" cy="148" r="7"/>
+    <circle cx="256" cy="176" r="7"/><circle cx="285" cy="176" r="7"/><circle cx="343" cy="176" r="7"/>
+    <circle cx="256" cy="204" r="7"/><circle cx="285" cy="204" r="7"/><circle cx="314" cy="204" r="7"/>
+  </g>
+  <!-- 予定の日に印 -->
+  <circle cx="314" cy="176" r="13" fill="#EE6B2D"/>
+  <path d="M314 168 l2.4 5.6 5.6 2.4 -5.6 2.4 -2.4 5.6 -2.4 -5.6 -5.6 -2.4 5.6 -2.4 Z" fill="#FFFFFF"/>
+
+  <!-- 吹き出し -->
+  <rect x="96" y="110" width="96" height="56" rx="20" fill="#3FBFB0"/>
+  <path d="M170 160 l20 22 -4 -26 Z" fill="#3FBFB0"/>
+  <circle cx="122" cy="138" r="6" fill="#FFFFFF"/><circle cx="144" cy="138" r="6" fill="#FFFFFF"/><circle cx="166" cy="138" r="6" fill="#FFFFFF"/>
+
+  <rect x="408" y="150" width="96" height="56" rx="20" fill="#E487C8"/>
+  <path d="M424 200 l-16 22 22 -16 Z" fill="#E487C8"/>
+  <path d="M456 194 C440 182 435 173 441 166 C447 159 455 162 456 168 C457 162 465 159 471 166 C477 173 472 182 456 194 Z" fill="#FFFFFF"/>
+
+  <!-- きらめき・三角形 -->
+  <path d="M430 76 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 Z" fill="#F7D96A"/>
+  <path d="M150 232 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 Z" fill="#F7D96A"/>
+  <polygon points="96,62 120,48 122,76" fill="#7FE3D8"/>
+  <polygon points="490,258 516,268 492,284" fill="#EE6B2D" opacity=".7"/>
+</svg>

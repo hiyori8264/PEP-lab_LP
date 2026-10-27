@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img" aria-label="仮画像">
-  <rect width="600" height="340" fill="#FFF7DE"/>
-  <rect x="210" y="90" width="180" height="150" rx="18" fill="#FFFFFF" stroke="#F2C94C" stroke-width="6"/>
-  <rect x="210" y="90" width="180" height="40" rx="18" fill="#F2C94C"/>
-  <circle cx="255" cy="180" r="10" fill="#F2C94C"/><circle cx="300" cy="180" r="10" fill="#F2C94C"/><circle cx="345" cy="180" r="10" fill="#F2C94C"/>
-  <text x="300" y="295" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#A88A2A">仮画像（差し替え用）</text>
-</svg>
