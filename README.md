@@ -38,15 +38,15 @@
 
 ## 公開前に確認が必要な項目
 
-`index.html` で「要確認」と検索すると、該当箇所が見つかります。
+公開URL：https://peplabcommunitydriven.netlify.app/ （Netlifyで公開。GitHubの main に保存すると自動で反映）
 
 - [x] LINE登録URL
 - [x] 参加費（FAQ）
 - [x] 運営者情報のリンク（https://peplab.jp/）
 - [x] ロゴ
-- [ ] 3つの特徴・参加の流れの文言の最終確認
+- [x] 3つの特徴・参加の流れの文言の最終確認
 - [x] 画像（hero / about / event はオリジナルのイラスト。写真に変える場合は差し替え）
-- [ ] 公開URLが決まったら、OGP（`og:url`、`og:image`）を設定
+- [x] OGP（シェア用画像 `images/ogp.png`、公開URL https://peplabcommunitydriven.netlify.app/ ）
 - [ ] アクセス解析（Googleアナリティクスなど）やフォームを追加する場合は、プライバシーポリシーを用意する
 
 ※実績・数値・参加者の声・イベントの日程は、事実確認ができたものだけを載せてください。
